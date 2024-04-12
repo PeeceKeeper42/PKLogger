@@ -18,11 +18,15 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Widgets)
 include(${ROOT_PROJECT_DIR}/_cmake/lib_settings.cmake)
 
 set(PROJECT_SOURCES
-    lib_pk_logger.h
-    pk_logger.h
-    private/pk_logger.cpp
-    private/p_pk_logger.h
-    private/p_pk_logger.cpp
+    lib_PkLogger.h
+    PkLogger.h
+    private/PkLogger.cpp
+    private/PrivatePkLogger.h
+    private/PrivatePkLogger.cpp
+
+    AbstractLogger.h
+    ConsoleLogger.h
+    private/ConsoleLogger.cpp
 )
 
 add_library(${PROJECT_NAME} SHARED

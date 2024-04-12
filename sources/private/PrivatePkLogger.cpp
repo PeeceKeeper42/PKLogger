@@ -1,4 +1,4 @@
-#include "p_pk_logger.h"
+#include "PrivatePkLogger.h"
 
 //==============================================================================
 void PrivatePKLogger::foo()

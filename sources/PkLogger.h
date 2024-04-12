@@ -3,8 +3,8 @@
 #define PKLOGGER_H
 
 //==============================================================================
-#include "lib_pk_logger.h"
-#include "p_pk_logger.h"
+#include "lib_PkLogger.h"
+#include "PrivatePkLogger.h"
 #include <QObject>
 #include <QDebug>
 //==============================================================================
